@@ -1,7 +1,7 @@
 from fastapi import APIRouter, Depends
 
 # importando sessão do banco de dados de database.py
-from backend.core import get_session
+from app.core import get_session
 
 # Schemas e Services da Rota Auth
 

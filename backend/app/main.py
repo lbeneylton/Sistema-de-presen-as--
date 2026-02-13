@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 # importando sessão do banco de dados de database.py
-from backend.core import get_session
-from backend.auth import auth_router
+from app.core import get_session
+from app.auth import auth_router
 
 app = FastAPI()
 app.include_router(auth_router)
